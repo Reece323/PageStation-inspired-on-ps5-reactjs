@@ -21,9 +21,9 @@ const users = [
     active: false,
   },
   {
-    name: 'Player 1',
+    name: 'User 1',
     avatar: brazil,
-    plus: true,
+    plus: false,
     active: true,
   },
 ];
@@ -33,10 +33,6 @@ const Users: React.FC = () => {
 
   const handleNavigateToHome = useCallback(() => {
     history.push('/home');
-  }, [history]);
-
-  const handleShutdown = useCallback(() => {
-    history.push('/shutdown');
   }, [history]);
 
   const handleUserKeyPress = useCallback(
@@ -68,17 +64,10 @@ const Users: React.FC = () => {
 
       <div className="animationContainerUsers">
         <div className="content-users">
-          <h1>Welcome Back to PageStation</h1>
-          <h2>Who is using this controller?</h2>
+          <h1>Welcome and all that here</h1>
+          <h2>Login Below</h2>
 
           <div className="user-selection">
-            <div className="controller">
-              <span>1</span>
-              <div>
-                <IoLogoGameControllerB />
-              </div>
-            </div>
-
             <div className="users-list">
               {users.map(user => (
                 <div
@@ -115,18 +104,11 @@ const Users: React.FC = () => {
                 </div>
               ))}
             </div>
-
-            <div className="options">
-              <div>
-                <IoMdApps />
-              </div>
-              <span>Options</span>
-            </div>
           </div>
         </div>
 
         <div className="power">
-          <button type="button" onClick={handleShutdown}>
+          <button type="button" onClick={handleNavigateToHome}>
             <FaPowerOff />
           </button>
         </div>

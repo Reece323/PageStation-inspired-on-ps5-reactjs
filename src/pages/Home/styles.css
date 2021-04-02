@@ -89,7 +89,7 @@ button.game-card {
   flex-direction: column;
   justify-content: space-between;
 
-  transition: 0.3s ease-in-out all;
+  transition: .22s ease-in-out all;
 }
 
 button.game-card.game-inactive {

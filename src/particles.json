@@ -7,7 +7,7 @@
         "mode": "push"
       },
       "onHover": {
-        "enable": false,
+        "enable": true,
         "mode": "repulse"
       },
       "resize": true
@@ -24,34 +24,34 @@
       },
       "repulse": {
         "distance": 200,
-        "duration": 0.4
+        "duration": 10
       }
     }
   },
   "particles": {
     "collisions": {
-      "enable": false,
+      "enable": true,
       "mode": "bounce"
     },
     "color": {
       "value": "#f2b37b",
       "animation": {
         "enable": true,
-        "speed": 3,
+        "speed": 2,
         "sync": true
       }
     },
     "links": {
-      "blink": false,
+      "blink": true,
       "color": {
         "value": "#fff"
       },
       "consent": false,
-      "distance": 100,
+      "distance": 720,
       "enable": false,
-      "opacity": 1,
+      "opacity": 5,
       "shadow": {
-        "blur": 5,
+        "blur": 1,
         "color": {
           "value": "#7f5d4b"
         },
@@ -65,33 +65,33 @@
     },
     "move": {
       "enable": true,
-      "speed": 3,
+      "speed": 1,
       "direction": "none",
       "random": false,
       "straight": false,
       "out_mode": "out",
-      "bounce": false,
+      "bounce": true,
       "attract": {
-        "enable": false,
+        "enable": true,
         "rotateX": 600,
         "rotateY": 1200
       }
     },
     "number": {
       "density": {
-        "enable": false,
-        "area": 800,
+        "enable": true,
+        "area": 600,
         "factor": 1000
       },
       "limit": 0,
-      "value": 100
+      "value": 40
     },
     "opacity": {
       "animation": {
         "enable": true,
         "minimumValue": 0,
         "speed": 2,
-        "sync": false
+        "sync": true
       },
       "random": {
         "enable": false,
@@ -129,12 +129,12 @@
         "destroy": "none",
         "enable": true,
         "minimumValue": 2,
-        "speed": 2,
+        "speed": 1,
         "startValue": "max",
         "sync": false
       },
       "random": {
-        "enable": true,
+        "enable": false,
         "minimumValue": 1
       },
       "value": 7
@@ -149,12 +149,12 @@
     "twinkle": {
       "lines": {
         "enable": false,
-        "frequency": 0.05,
+        "frequency": 0.5,
         "opacity": 1
       },
       "particles": {
-        "enable": false,
-        "frequency": 0.05,
+        "enable": true,
+        "frequency": 0.5,
         "opacity": 1
       }
     }

@@ -9,7 +9,7 @@ const App: React.FC = () => (
     <p className="citation">
       <span>Inspired interface</span>
       <span>
-        Fan made by <a href="https://github.com/eduqg">eduqg</a>
+        Under Construction <a href="https://github.com/">Reece323</a>
       </span>
     </p>
   </Router>

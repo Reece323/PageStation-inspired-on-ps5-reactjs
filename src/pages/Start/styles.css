@@ -6,7 +6,7 @@
   width: 100%;
   height: 100%;
   position: relative;
-  background-image: url('../../images/bgps5.png');
+  background-image: url('https://s3.envato.com/files/d1996ad8-d008-424d-9986-b7e432dae880/inline_image_preview.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
@@ -29,7 +29,7 @@
 
 .title {
   font-weight: 300;
-  font-size: 28px;
+  font-size: 44px;
   letter-spacing: 1px;
   text-align: center;
 }

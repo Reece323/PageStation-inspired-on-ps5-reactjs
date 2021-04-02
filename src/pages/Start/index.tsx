@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect } from 'react';
-import { BiSmile } from 'react-icons/bi';
+import { FaPowerOff } from 'react-icons/fa';
 import { useHistory } from 'react-router-dom';
 
 import Particles from 'react-tsparticles';
@@ -39,13 +39,13 @@ const Start: React.FC = () => {
       <Particles options={particlesOptions as ISourceOptions} />
       <div className="animationContainerStart">
         <div className="content">
-          <h1 className="title">Press the Smile button on your controller.</h1>
+          <h1 className="title">Placeholder</h1>
 
           <button type="button" className="start" onClick={handleNavigateUsers}>
             <div className="circle1" />
             <div className="circle2" />
             <div className="icon">
-              <BiSmile />
+              <FaPowerOff />
             </div>
           </button>
         </div>
